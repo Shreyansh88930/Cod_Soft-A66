@@ -403,7 +403,7 @@ footer a:hover {
 }
 
 #projects .project img {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
     border-radius: 8px;
 }
@@ -582,4 +582,23 @@ line-height: 1.6;
         font-size: 14px;
         padding: 15px;
     }
+}
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-category {
+    flex: 1 1 30%;
+    min-width: 200px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-category p {
+    margin: 0;
+    font-size: 16px;
 }
