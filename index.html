@@ -11,7 +11,7 @@
     <!-- Header Section -->
     <header>
         <div class="container">
-            <nav>
+            <nav id="navbar">
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -20,6 +20,7 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+            
             <div class="hero">
                 <h1>Hi, I'm Shreyansh Palwalia</h1>
                 <p>Software Developer & Data Enthusiast</p>
@@ -141,7 +142,8 @@
         
         <!-- New Achievement Field -->
         <ul>
-            <li>Developed a portfolio website as a key project during the web development virutal internship under CodSoft<a href="https://drive.google.com/file/d/1i-cyr_9BXvGEIEjFtMVWWmxpGlulmuo6/view?usp=sharing" target="_blank">View Certificate</a></li>
+            <li>Developed a portfolio website as a key project during the web development virutal internship under CodSoft- <a href="https://drive.google.com/file/d/1i-cyr_9BXvGEIEjFtMVWWmxpGlulmuo6/view?usp=sharing" target="_blank">View Certificate</a></li>
+            <li>Successfully completed the Data Analytics Essentials certification, demonstrating proficiency in key data analysis concepts and tools through Cisco Networking Academy- <a href="https://drive.google.com/file/d/15BHhHXhgYcJRwRQuL1835PfFIzuI_Eou/view?usp=sharing" target="_blank">View Certificate</a></li>
             <li>Awarded a distinguished certificate for scoring 95.8% in 12th class by the government - <a href="https://drive.google.com/file/d/1kwqqXng0PGSVRI_CKqM4CCZfgmLxqoTS/view?usp=sharing" target="_blank">View Certificate</a></li>
             <li>Completed Tata Data Visualization: Empowering Business with Effective Insights Job Simulation - <a href="https://drive.google.com/file/d/1q3vdA2261bL3Pt3zjwFt9BC0hPHAAULL/view?usp=sharing" target="_blank">View Certificate</a></li>
             <li>Completed Data Analytics Essentials certification with Cisco Networking Academy - <a href="https://drive.google.com/file/d/15BHhHXhgYcJRwRQuL1835PfFIzuI_Eou/view?usp=sharing" target="_blank">View Certification</a></li>
@@ -166,14 +168,29 @@
         <div class="contact-content">
             <h2>Contact Me</h2>
             <p>If you have any questions or just want to say hello, feel free to drop me a message!</p>
-
+    
             <form id="contactForm" action="https://formspree.io/f/mzzpjgvo" method="POST">
                 <div class="form-group">
                     <label for="name">Your Name</label>
                     <input type="text" id="name" name="name" placeholder="Your Name" required>
                 </div>
-
+    
                 <div class="form-group">
                     <label for="email">Your Email</label>
                     <input type="email" id="email" name="_replyto" placeholder="Your Email" required>
-               
+                </div>
+    
+                <!-- Message Field -->
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+    
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+    
